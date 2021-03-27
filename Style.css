@@ -1,3 +1,12 @@
+html{
+    background-color: teal;
+}
 h1{
-    color: rgb(255, 81, 0);
+    color: silver;
+    font-size: 100px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-size: 50px;
 }
