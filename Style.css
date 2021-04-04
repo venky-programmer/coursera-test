@@ -1,12 +1,33 @@
 html{
-    background-color: teal;
+    background-color: #1a1a51;
 }
 h1{
-    color: silver;
+    color: white;
     font-size: 100px;
     text-align: center;
 }
 h2{
     text-align: center;
     font-size: 50px;
+}
+
+h2:hover{
+    color: white;
+    cursor: pointer;
+}
+
+a:link, a:visited{
+    background-color: tomato;
+    text-decoration: none;
+    border: 2px solid;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    width: 100px;
+    text-align: center;
+    padding: 10px 10px;
+}
+a:hover, a:active{
+    background-color: black;
+    color: white;
 }
